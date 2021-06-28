@@ -1,0 +1,53 @@
+let randomMessage = Math.floor(Math.random() * 15)
+let faults = ''
+    switch (randomMessage) {
+        case 0:
+            console.log('WIPER NOT WORKING - resolved');
+            break;
+        case 1:
+            console.log('CAR LOCK REPLACEMENT - resolved');
+            break;
+        case 2:
+            console.log('MISSING ENGINE SEAT - resolved');
+            break;
+        case 3:
+            console.log('GEAR SWITCH - resolved');
+            break;
+        case 4:
+            console.log('CAR RADIATOR REPLACEMENT - resolved');
+            break;
+        case 5:
+            console.log('BRAIN BOX REPLACEMENT - resolved');
+            break;
+        case 6:
+            console.log('INJECTOR MOUTH FAULT - resolved');
+            break;
+        case 7:
+            console.log('POWER STEERING PUMP REPLACEMENT - resolved');
+            break;
+        case 8:
+            console.log('ENGINE REPLACEMENT - resolved');
+            break;
+        case 9:
+            console.log('BRAKE DISK REPLACEMENT - resolved');
+            break;
+        case 10:
+            console.log('MUD GUARD FIX - resolved');
+            break;
+        case 11:
+            console.log('FRONT BUMPER REPLACEMENT - resolved');
+            break;
+        case 12:
+            console.log('CAR HONK SERVICING - resolved');
+            break;
+        case 13:
+            console.log('CAR RADIO SERVICING - resolved');
+            break;
+        case 14:
+            console.log('AIR VENTS SERVICING - resolved');
+            break;
+        default:
+            console.log('Error Message')
+
+    }
+console.log(faults);
